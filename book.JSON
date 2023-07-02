@@ -3,7 +3,14 @@
     "title": "Big Magic",
     "detail": "Big Magic: Creative Living Beyond Fear written by Elizabeth Gilbert. With the creation of this book, the author digs deep into her own generative process to share her wisdom and unique perspective about creativity.      ",
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg",
-    "categories": "Non-fiction",
-    "href": "https://www.euronews.com/next/2022/08/31/pay-transparency-can-help-close-the-gender-pay-gap-but-at-what-cost"
+    "categories": ["Non-fiction", "Best-selling"],
+    "href": "Bigmagic.html"
+  },
+  {
+    "title": "Big Magic",
+    "detail": "Big Magic: Creative Living Beyond Fear written by Elizabeth Gilbert. With the creation of this book, the author digs deep into her own generative process to share her wisdom and unique perspective about creativity.      ",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg",
+    "categories": ["Non-fiction"],
+    "href": "Bigmagic.html"
   }
 ]

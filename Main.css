@@ -259,6 +259,7 @@ li.slide:nth-child(3) {
   width: 45%;
   height: 45%;
   margin: 30px 0 0 20px;
+  object-fit: cover;
 }
 .card-text {
   font-weight: 700;

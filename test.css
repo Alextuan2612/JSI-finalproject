@@ -15,7 +15,8 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: rgb(231, 231, 231);
+  /* background-color: rgb(231, 231, 231); */
+  background-color: rgb(255, 236, 251);
 }
 
 header {
@@ -72,8 +73,8 @@ header {
   border-radius: 50px;
   background-image: linear-gradient(
     to right,
-    rgb(255, 195, 110),
-    rgb(255, 146, 91)
+    rgb(255, 146, 91),
+    rgb(255, 0, 0)
   );
   position: absolute;
   top: 20px;
@@ -142,6 +143,10 @@ header {
   font-size: 22px;
   border: none;
   cursor: pointer;
+  transition: 1s;
+}
+.clkbtn:hover {
+  transform: scale(1.2);
 }
 
 /* For Responsiveness of the page */

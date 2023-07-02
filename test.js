@@ -118,6 +118,7 @@ loginAccount.addEventListener("click", () => {
       var user = userCredential.user;
       window.location.href = "Main.html";
       alert("succesful");
+      localStorage.setItem("currentusers", JSON.stringtify(user));
 
       // ...
     })
