@@ -54,6 +54,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .slider-controls {
@@ -233,6 +234,7 @@ li.slide:nth-child(3) {
   text-transform: uppercase;
   word-spacing: 1px;
   letter-spacing: 2px;
+  margin-top: 20px;
 }
 .five h1:before {
   position: absolute;
@@ -388,7 +390,6 @@ li.slide:nth-child(3) {
   width: 280px;
 }
 .spacing {
-  margin-left: 50px;
   transition: 1s;
 }
 .spacing:hover {
@@ -452,4 +453,20 @@ button {
   border-top-right-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
+}
+.bestselling {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.card-spacing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.authors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
