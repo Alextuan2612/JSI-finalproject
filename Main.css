@@ -1,3 +1,4 @@
+@import url("Footer.css");
 .navi {
   background-color: #961949;
 }
@@ -366,6 +367,7 @@ li.slide:nth-child(3) {
   height: 220px;
   float: left;
   object-fit: cover;
+  margin-right: 50px;
 }
 .author-spacing {
   margin-top: 30px;
@@ -405,8 +407,6 @@ li.slide:nth-child(3) {
   margin-left: 85px;
 }
 .buttons-container {
-  width: 100%;
-  height: 100vh;
   align-items: center;
   justify-content: center;
   margin-left: 50px;
@@ -469,4 +469,16 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.author-div {
+  background-color: rgb(255, 250, 156);
+  margin-top: 50px;
+  width: 1400px;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.author-title {
+  text-align: center;
 }

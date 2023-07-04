@@ -10,7 +10,7 @@ fetch("book.json", {
     let html = "";
     for (i = 0; i < Data.length; i++) {
       {
-        if (Data[i].categories.indexOf("Best-selling") != -1) {
+        if (Data[i].categories.indexOf("Most-popular") != -1) {
           let htmlSegment = `
           <div class="spacing">
           <div class="best-selling">
