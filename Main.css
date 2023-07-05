@@ -1,43 +1,5 @@
 @import url("Footer.css");
-.navi {
-  background-color: #961949;
-}
-.title {
-  color: white;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 29px;
-  margin: 0px 10px 0 0;
-}
-.navbaritem {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
-
-  color: #ffffff;
-}
-.login-signup {
-  margin-left: auto;
-  border-radius: 8px;
-  background-color: rgb(251, 104, 104);
-  border: #ffffff solid 0.5px;
-  color: rgb(0, 0, 0);
-  margin-left: 10px;
-  transition: 1s;
-}
-.login-signup:hover {
-  background-color: red;
-  transition: 1s;
-  color: white;
-}
-.button {
-  display: flex;
-}
-
+@import url("Navbar.css");
 *,
 *::before,
 *::after {

@@ -1,0 +1,37 @@
+.navi {
+  background-color: #f88fb7;
+}
+.title {
+  color: rgb(255, 0, 0);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  margin: 0px 10px 0 0;
+}
+.navbaritem {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: white;
+}
+.login-signup {
+  margin-left: auto;
+  border-radius: 8px;
+  background-color: rgb(251, 104, 104);
+  border: #ffffff solid 0.5px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  transition: 1s;
+  padding: 0.375em 1.125em;
+}
+.login-signup:hover {
+  background-color: red;
+  transition: 1s;
+  color: white;
+}
+.button {
+  display: flex;
+}
