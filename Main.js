@@ -1,3 +1,4 @@
+let products = [];
 fetch("book.json", {
   mode: "cors",
   headers: {
@@ -6,7 +7,6 @@ fetch("book.json", {
 })
   .then((response) => response.json())
   .then((Data) => {
-    console.log(Data);
     let html = "";
     for (i = 0; i < Data.length; i++) {
       {
@@ -48,8 +48,8 @@ fetch("book.json", {
 
     let container = document.querySelector(".bestselling");
     container.innerHTML = html;
-    console.log(html);
   });
+console.log(products);
 
 const currentUser = JSON.parse(localStorage.getItem("currentusers"));
 if (currentUser) {

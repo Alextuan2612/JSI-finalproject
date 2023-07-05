@@ -70,32 +70,41 @@
         <div class="author">-Luke Adam Hawker</div>
       </div>
     </div>
-    <input type="search" id="search" />
-    <div class="All-items">
-      <div class="wrapper">
-        <div class="product-img">
-          <img
-            src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg"
-            height="420"
-            width="327"
-          />
-        </div>
-        <div class="product-info">
-          <div class="product-text">
-            <h1>Big Magic</h1>
-            <h2>by Elizabeth Gilbert</h2>
-            <p class="product-details">
-              Big Magic: Creative Living Beyond Fear written by Elizabeth
-              Gilbert. With the creation of this book, the author digs deep into
-              her own generative process to share her wisdom and unique
-              perspective about creativity.
-            </p>
+    <div class="search-section">
+      <input type="search" id="search" />
+      <div class="All-items">
+        <div class="All-items" product-card-container></div>
+        <template product-template>
+          <div class="wrapper">
+            <div class="product-img">
+              <img
+                src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg"
+                height="420"
+                width="327"
+                image-main
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1 class="big-title" product-header>Big Magic</h1>
+                <h2 product-author>by Elizabeth Gilbert</h2>
+                <p class="product-details" product-details>
+                  Big Magic: Creative Living Beyond Fear written by Elizabeth
+                  Gilbert. With the creation of this book, the author digs deep
+                  into her own generative process to share her wisdom and unique
+                  perspective about creativity.
+                </p>
+              </div>
+              <div class="product-price-btn">
+                <button type="button" onclick="location.href = 'Main.html';">
+                  View more
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="product-price-btn">
-            <button type="button">buy now</button>
-          </div>
-        </div>
+        </template>
       </div>
     </div>
+    <script src="Allbooks.js"></script>
   </body>
 </html>
