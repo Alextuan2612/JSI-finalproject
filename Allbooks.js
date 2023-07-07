@@ -24,6 +24,10 @@ fetch("book.json", {
       const image = card.querySelector("[image-main]");
       const author = card.querySelector("[product-author]");
       const detail = card.querySelector("[product-details]");
+      const link = card.querySelector("[link-more]");
+      link.addEventListener("click", function () {
+        location.href = product.link;
+      });
       detail.textContent = product.detail;
       author.textContent = product.author;
       image.src = product.image;

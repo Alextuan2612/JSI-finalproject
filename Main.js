@@ -56,3 +56,6 @@ if (currentUser) {
   const logincontainer = document.getElementById("login-container");
   logincontainer.innerHTML = `<h1>Welcome ${currentUser.displayName}</h1>`;
 }
+document.getElementById("Non-fiction").onclick = function () {
+  location.href = "Non-fiction.html";
+};

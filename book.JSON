@@ -5,7 +5,7 @@
     "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451446242l/24453082.jpg",
     "categories": ["Non-fiction", "Most-popular"],
     "author": "Elizabeth Gilbert",
-    "href": "Bigmagic.html"
+    "link": "Big-magic.html"
   },
   {
     "title": "Save What's Left",
@@ -13,7 +13,7 @@
     "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1685479397-81Fw6GKkMbL.jpg?crop=1xw:1xh;center,top&resize=980:*",
     "categories": ["Fiction", "Most-popular"],
     "author": "Elizabeth Castellano",
-    "href": "Bigmagic.html"
+    "link": "Bigmagic.html"
   },
   {
     "title": "Bad, Bad Seymour Brown",
@@ -21,6 +21,6 @@
     "image": "https://groveatlantic.com/core/wp-content/uploads/2022/12/thumbnail_BadBadSeymourBrown_CVR_final.jpg",
     "categories": ["Detective", "Most-popular"],
     "author": "Susan Issacs",
-    "href": "Bigmagic.html"
+    "link": "Bigmagic.html"
   }
 ]

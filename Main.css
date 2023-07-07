@@ -263,6 +263,7 @@ li.slide:nth-child(3) {
   transform: scale(1) translateZ(0);
   border-color: rgb(255, 99, 71);
   background: rgb(255, 70, 70);
+  cursor: pointer;
 }
 .card-container2:hover:after {
   background: rgb(255, 99, 71);

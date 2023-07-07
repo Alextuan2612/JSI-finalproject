@@ -1,0 +1,290 @@
+@import url("Navbar.css");
+/* .Bookpage_leftColumn {
+  float: left;
+}
+.Sticky {
+  position: sticky;
+  z-index: 1;
+}
+.Pageframe {
+  position: relative;
+  margin: 0 auto;
+  min-width: 32rem;
+  max-width: 126rem;
+  width: 91%;
+  padding-top: 7rem;
+}
+.bookAction {
+  display: flex;
+  margin-bottom: 1.2rem;
+  min-height: 2rem;
+}
+.bookcard_cover {
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0 0.2rem 0.8rem rgba(0, 0, 0, 0.2));
+  position: relative;
+  border-radius: 0 6% 6% 0/4%;
+  overflow: hidden;
+}
+.card_image {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.Bookpage_rightColumn {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-right: 10rem;
+  float: right;
+}
+.Text-title {
+  font-size: 3rem;
+  line-height: 4.2rem;
+}
+.text-author {
+  margin: 1.2rem 0;
+  margin-top: 0.4rem;
+  flex-basis: auto;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+.checked {
+  color: orange;
+  display: block;
+}
+.statistic {
+  display: flex;
+}
+.rating-star {
+  display: inline-block;
+  font-family: Copernicus, "Libre Baskerville", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin: 0 2rem 0 2rem;
+}
+.text-statistic {
+  display: inline-block;
+  font: 400 1rem/1.35714 "Proxima Nova", Montserrat, Arial, sans-serif;
+  padding-top: 0.4rem;
+  color: gray;
+}
+.text-detail {
+  display: inline-block;
+  position: relative;
+  max-height: none;
+  overflow-y: visible;
+} */
+.checked {
+  color: orange;
+  display: block;
+}
+.rating-star {
+  display: inline-block;
+  font-family: Copernicus, "Libre Baskerville", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin: 0 2rem 0 2rem;
+}
+.text-statistic {
+  display: inline-block;
+  font: 400 1rem/1.35714 "Proxima Nova", Montserrat, Arial, sans-serif;
+  padding-top: 0.4rem;
+  color: gray;
+}
+.container1 {
+  display: flex;
+  height: 100vh;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.left-half {
+  margin-left: 5rem;
+  flex: 0 0 60%;
+  padding: 20px;
+  margin-top: 3rem;
+}
+
+.right-half {
+  margin-top: 2rem;
+  margin-right: 5rem;
+  flex: 1;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  margin-top: 2rem;
+  transition: transform 0.2s ease-in-out;
+  filter: drop-shadow(0 0.2rem 0.8rem rgba(0, 0, 0, 0.2));
+  position: relative;
+  border-radius: 0 6% 6% 0/4%;
+  width: 70%;
+  height: auto;
+  margin-left: 0.9rem;
+}
+.text-author {
+  margin: 1.2rem 0;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 350;
+}
+.button1 {
+  display: block;
+  margin-top: 1.5rem;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 20px;
+  background-color: #377458;
+  color: white;
+  border-color: white;
+  transition: 0.4s;
+}
+.button1:hover {
+  background-color: #54b587;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  width: 13rem;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+  transition: 0.5s;
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+  transition: 0.5s;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+  transition: 0.5s;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+  transition: 0.5s;
+}
+.rate-text {
+  margin-left: 4.5rem;
+}
+.small-detail {
+  font-size: small;
+  font-weight: 500;
+}
+.hidden-text {
+  position: relative;
+}
+input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 10%;
+  opacity: 0;
+}
+.label {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  font-family: "Spicy Rice", cursive;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 20px 0 0;
+}
+.label:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.label::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 10px;
+  border-left: 8px solid black;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  margin-top: -8px;
+}
+input[type="checkbox"]:checked ~ h2 label::before {
+  border-left: 8px solid transparent;
+  border-top: 8px solid black;
+  border-right: 8px solid transparent;
+  margin-left: -4px;
+  margin-top: -4px;
+}
+.text-h {
+  display: block;
+  float: left;
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 30px;
+  transition: max-height 0.4s ease;
+  font-family: "Habibi", serif;
+  color: rgb(110, 110, 110);
+}
+input[type="checkbox"]:checked ~ h2 ~ p {
+  max-height: 80px;
+}
+.text-detail {
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  margin-left: 10rem;
+  transition: max-height 0.4s ease;
+  text-decoration: underline;
+}
+.text-detail2 {
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  margin-left: 10rem;
+  transition: max-height 0.4s ease;
+}
+.text-big {
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  transition: max-height 0.4s ease;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
