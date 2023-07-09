@@ -290,6 +290,7 @@ li.slide:nth-child(3) {
   transform: scale(1) translateZ(0);
   border-color: rgb(135, 206, 250);
   background: rgb(30, 144, 255);
+  cursor: pointer;
 }
 .card-container3:hover:after {
   background: rgb(135, 206, 250);
@@ -421,12 +422,14 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 .card-spacing {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .authors {
   display: flex;
@@ -437,11 +440,26 @@ button {
 .author-div {
   background-color: rgb(255, 250, 156);
   margin-top: 50px;
-  width: 1400px;
+  margin-right: 3.75rem;
   margin-left: 60px;
   border-radius: 10px;
   margin-bottom: 50px;
 }
 .author-title {
   text-align: center;
+}
+#scrollTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#scrollTopButton:hover {
+  background-color: #555;
 }

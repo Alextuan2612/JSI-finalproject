@@ -36,7 +36,7 @@ fetch("book.json", {
               ${Data[i].detail}
             </p>
             <div class="buttons-container">
-              <button class="button-arounder">Find more here</button>
+              <button class="button-arounder" onclick="location.href = '${Data[i].link}';">Find more here</button>
             </div>
           </div>
         </div>
@@ -52,10 +52,50 @@ fetch("book.json", {
 console.log(products);
 
 const currentUser = JSON.parse(localStorage.getItem("currentusers"));
-if (currentUser) {
+
+if (localStorage.getItem("login") == "true") {
+  console.log(localStorage.getItem("login"));
   const logincontainer = document.getElementById("login-container");
-  logincontainer.innerHTML = `<h1>Welcome ${currentUser.displayName}</h1>`;
+  logincontainer.innerHTML = `<h1 style="font-family: 'Josefin Slab', serif;">Welcome ${currentUser.displayName}</h1><button onclick="logout()">Logout</button>`;
 }
 document.getElementById("Non-fiction").onclick = function () {
   location.href = "Non-fiction.html";
 };
+document.getElementById("Fiction").onclick = function () {
+  location.href = "Fiction.html";
+};
+if (localStorage.getItem("login") == "false") {
+  const logincontainer = document.getElementById("login-container");
+  logincontainer.innerHTML = `
+<button
+          class="login-signup"
+          onclick="window.location.href='test.html';"
+        >
+          Login
+        </button>`;
+}
+function logout() {
+  const logincontainer = document.getElementById("login-container");
+  logincontainer.innerHTML = `
+<button
+          class="login-signup"
+          onclick="window.location.href='test.html';"
+        >
+          Login
+        </button>`;
+  localStorage.setItem("login", "false");
+}
+window.addEventListener("scroll", function () {
+  var scrollTopButton = document.getElementById("scrollTopButton");
+  if (window.pageYOffset > 300) {
+    scrollTopButton.style.display = "block";
+  } else {
+    scrollTopButton.style.display = "none";
+  }
+});
+
+document
+  .getElementById("scrollTopButton")
+  .addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });

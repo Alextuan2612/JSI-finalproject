@@ -11,6 +11,9 @@
   background-position: 0 0 !important;
   background-size: 100% !important;
 }
+.big-title {
+  width: 19.5rem !important;
+}
 .backgroundtext {
   font-family: PoynterOSDisp, poynter, serif;
   font-size: 22px;
@@ -98,7 +101,7 @@
 }
 
 .product-text h2 {
-  margin: 0 0 47px 38px;
+  margin: 0 0 1.25rem 38px;
   font-size: 13px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -169,9 +172,7 @@ span {
   background-color: #79b0a1;
   transform: scale(1.2);
 }
-/* .product-details {
-  text-align: left;
-} */
+
 .search-section {
   background-color: #ffe2d6;
   margin-top: 0;

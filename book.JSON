@@ -13,7 +13,7 @@
     "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1685479397-81Fw6GKkMbL.jpg?crop=1xw:1xh;center,top&resize=980:*",
     "categories": ["Fiction", "Most-popular"],
     "author": "Elizabeth Castellano",
-    "link": "Bigmagic.html"
+    "link": "Savewhat.html"
   },
   {
     "title": "Bad, Bad Seymour Brown",
@@ -21,6 +21,22 @@
     "image": "https://groveatlantic.com/core/wp-content/uploads/2022/12/thumbnail_BadBadSeymourBrown_CVR_final.jpg",
     "categories": ["Detective", "Most-popular"],
     "author": "Susan Issacs",
-    "link": "Bigmagic.html"
+    "link": "Bad.html"
+  },
+  {
+    "title": "Burn It Down",
+    "detail": "Susan Isaacs returns to a pair of her readers’ favorite characters, former FBI agent Corie Geller and her retired cop dad, who must solve one of the NYPD’s coldest homicide cases—before the crime’s sole survivor is killed    ",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1675644029i/62365904.jpg",
+    "categories": ["Non-fiction"],
+    "author": "Susan Issacs",
+    "link": "Bad.html"
+  },
+  {
+    "title": "George: A Magpie Memoir",
+    "detail": "Susan Isaacs returns to a pair of her readers’ favorite characters, former FBI agent Corie Geller and her retired cop dad, who must solve one of the NYPD’s coldest homicide cases—before the crime’s sole survivor is killed    ",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1683735134i/62919412.jpg",
+    "categories": ["Non-fiction"],
+    "author": "Susan Issacs",
+    "link": "Bad.html"
   }
 ]
