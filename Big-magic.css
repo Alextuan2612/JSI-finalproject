@@ -250,6 +250,10 @@ input[type="checkbox"]:checked ~ h2 label::before {
   margin-left: -4px;
   margin-top: -4px;
 }
+.text-author:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .text-h {
   display: block;
   float: left;

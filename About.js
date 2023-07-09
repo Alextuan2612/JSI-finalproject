@@ -28,6 +28,3 @@ function logout() {
 function redirect() {
   location.href = "Profile.html";
 }
-function author() {
-  location.href = "Author.html";
-}

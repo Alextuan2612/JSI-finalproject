@@ -50,20 +50,20 @@ fetch("book.json", {
     container.innerHTML = html;
   });
 console.log(products);
-
-const currentUser = JSON.parse(localStorage.getItem("currentusers"));
-
-if (localStorage.getItem("login") == "true") {
-  console.log(localStorage.getItem("login"));
-  const logincontainer = document.getElementById("login-container");
-  logincontainer.innerHTML = `<h1 style="font-family: 'Josefin Slab', serif;">Welcome ${currentUser.displayName}</h1><button onclick="logout()">Logout</button>`;
-}
 document.getElementById("Non-fiction").onclick = function () {
   location.href = "Non-fiction.html";
 };
 document.getElementById("Fiction").onclick = function () {
   location.href = "Fiction.html";
 };
+const currentUser = JSON.parse(localStorage.getItem("currentusers"));
+
+if (localStorage.getItem("login") == "true") {
+  console.log(localStorage.getItem("login"));
+  const logincontainer = document.getElementById("login-container");
+  logincontainer.innerHTML = `<h1 style="font-family: 'Josefin Slab', serif;">Welcome ${currentUser.displayName}</h1><button onclick="logout()">Logout</button><button onclick="redirect()">Profile</button>`;
+}
+
 if (localStorage.getItem("login") == "false") {
   const logincontainer = document.getElementById("login-container");
   logincontainer.innerHTML = `
@@ -84,6 +84,9 @@ function logout() {
           Login
         </button>`;
   localStorage.setItem("login", "false");
+}
+function redirect() {
+  location.href = "Profile.html";
 }
 window.addEventListener("scroll", function () {
   var scrollTopButton = document.getElementById("scrollTopButton");
