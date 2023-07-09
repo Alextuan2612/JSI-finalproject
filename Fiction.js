@@ -47,6 +47,8 @@ fetch("book.json", {
     );
   });
 console.log(products);
+const currentUser = JSON.parse(localStorage.getItem("currentusers"));
+
 if (localStorage.getItem("login") == "true") {
   console.log(localStorage.getItem("login"));
   const logincontainer = document.getElementById("login-container");

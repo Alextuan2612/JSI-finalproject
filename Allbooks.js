@@ -80,7 +80,6 @@ function createCommentElement(name, commentText) {
 
   const commentTextElement = document.createElement("p");
   commentTextElement.textContent = commentText;
-
   commentElement.appendChild(nameElement);
   commentElement.appendChild(commentTextElement);
 

@@ -272,3 +272,13 @@ header {
     font-size: 19px;
   }
 }
+.button-top {
+  border-radius: 10px;
+  background-color: orange;
+  height: 2rem;
+  width: 13rem;
+}
+.button-top:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

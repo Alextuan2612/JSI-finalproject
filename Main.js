@@ -90,7 +90,7 @@ function redirect() {
 }
 window.addEventListener("scroll", function () {
   var scrollTopButton = document.getElementById("scrollTopButton");
-  if (window.pageYOffset > 300) {
+  if (window.pageYOffset > 80) {
     scrollTopButton.style.display = "block";
   } else {
     scrollTopButton.style.display = "none";

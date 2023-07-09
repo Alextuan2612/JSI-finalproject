@@ -129,3 +129,6 @@ loginAccount.addEventListener("click", () => {
       alert("not successful");
     });
 });
+function change() {
+  location.href = "Main.html";
+}
